@@ -1,0 +1,51 @@
+@import url("https://fonts.cdnfonts.com/css/pusab");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Pusab", sans-serif;
+}
+body {
+  display: flex;
+  background: center / cover url("./asset/background.webp") no-repeat;
+  height: 100vh;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img[alt="top-levels"] {
+  transform: scale(1.5);
+}
+.levels-top {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  margin-bottom: 8rem;
+}
+.circle-info-levels {
+  height: 140px;
+  width: 140px;
+  background-color: aqua;
+  display: flex;
+  border-radius: 50%;
+  border: black 6px solid;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+}
+section {
+  width: 50vw;
+  height: 20vw;
+  border-radius: 24px;
+  padding: 1rem;
+  background-color: #0000009d;
+}
+.numbers-stars-levels {
+  display: flex;
+  justify-content: end;
+  color: #d4e34a;
+  font-size: 50px;
+}
