@@ -1,0 +1,52 @@
+@import url("https://fonts.cdnfonts.com/css/pusab");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Pusab", sans-serif;
+}
+body {
+  display: flex;
+  background: center / cover url("./asset/background.webp") no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+.floor {
+    position: absolute;
+    bottom: 0;
+    height: 30%;
+    width: 100%;
+    background: center / cover url("./asset/floor.jpg");
+}
+.truc {
+    position: absolute;
+    left: 30%;
+    top: 64%;
+}
+.player {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    background-color: #ffe100;
+    position: absolute;
+}
+.eye, .eyes {
+    height: 10px;
+    width: 15px;
+    background-color: #000;
+}
+.eye {
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.eyes {
+    margin-left: 28px;
+}
+.bouth {
+    height: 10px;
+    width: 25px;
+    background-color: #000;
+    margin-left: 15px;
+    margin-top: 5px;
+}
